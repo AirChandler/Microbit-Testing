@@ -1,2 +1,9 @@
 # Microbit Weather Station
- Just some microbit fun
+Just some microbit fun
+
+Instructions:
+
+yotta init
+yotta target bbc-microbit-classic-gcc
+yotta install lancaster-university/microbit
+yotta build
