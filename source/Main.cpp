@@ -9,8 +9,7 @@ MicroBitThermometer thermometer(storage);
 int main() {
 	uBit.init(); //Initialises thread
 	while(true){
-		uBit.display.scroll("HELLO");
-		serial.send("Hello\n");
+		uBit.display.scroll("oC");
 		uBit.display.scroll(thermometer.getTemperature());
 	}
 	release_fiber(); //Releases the thread
